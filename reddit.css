@@ -22,7 +22,10 @@
 body {
 	overflow-x:hidden;
 	background-color:#eee;
-	min-width:920px
+	min-width:920px;
+    font-size: 11px;
+    font-family: 'monospace' !important;
+	font-weight: normal !important;
 }
 a {
 	color:#24a0ed;
@@ -4240,7 +4243,8 @@ html:lang(ot) .linkflairlabel {
         font-size: 12px;
         margin: 0px !important;
         padding: 0px !important;;
-        
+        font-weight: normal;
+		font-family: "monospace";
         left: 130px;
         z-index: 100;
     }
@@ -4948,6 +4952,7 @@ html:lang(ot) .linkflairlabel {
     
     #sendreplies + label {
         font-size: 0px;
+		margin-left: 0px;
     }
     
     #sendreplies + label::before {
@@ -5009,6 +5014,10 @@ html:lang(ot) .linkflairlabel {
         padding: 0px;
         margin-bottom: 20px;
     }
+    
+	.content.submit .info-notice a {
+		top: -7px;
+	}
 
     /* WIKI: TODO */
     
@@ -5058,12 +5067,16 @@ html:lang(ot) .linkflairlabel {
     
     body .content textarea, .commentarea > .usertext textarea {
 		border-left: 20px solid #1C1F1F !important;
-        
         height: 230px;
         font-size: 12px;
         font-family: monospace !important;
         position: relative;
-        z-index: 10;
+        z-index: 100;
+		top: -5px;
+		border-right: none !important;
+		border-top: none !important;
+		border-bottom: none !important;
+		min-width: 300px;
     }
     
     .commentarea > .usertext {
@@ -5339,7 +5352,7 @@ html:lang(ot) .linkflairlabel {
             display: block;
             margin: 0px;
             margin-top: 100px;
-            margin-bottom: 600px;
+            margin-bottom: 820px;
             margin-left: 5px;
             height: 500px;
         }
