@@ -6160,6 +6160,18 @@ html:lang(ot) .linkflairlabel {
 		font-weight: normal;
 		background-image: none;
 	}
+	.gold-accent.reddit-infobar .md p {
+		color: #e6e3c6;
+	}
+	.gold-accent {
+		background-color: #b97b3f;
+		margin-top: 10px;
+		padding: 0 10px 5px;
+		border: 0px;
+		color: #e6e3c6 !important;
+		display: inline-block;
+		border-radius: 0px 0px;
+	}
  /* END - VENAM - CHANGES - NEW */
 
 }
