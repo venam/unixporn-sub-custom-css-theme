@@ -6145,6 +6145,21 @@ html:lang(ot) .linkflairlabel {
 		color: #e6e3c6;
 		font-family: monospace;
 	}
+	.top-page .menuarea {
+	    color: #e6e3c6 !important;
+		font-family: monospace;
+	}
+	.dropdown.lightdrop .selected {
+		color: #e6e3c6;
+		text-decoration: none;
+		cursor: pointer;
+		padding: 8px 12px;
+		border: 0px solid #edf1f3;
+		border-radius: 2px;
+		font-family: monospace;
+		font-weight: normal;
+		background-image: none;
+	}
  /* END - VENAM - CHANGES - NEW */
 
 }
