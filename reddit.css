@@ -3852,6 +3852,13 @@ html:lang(ot) .linkflairlabel {
     .side .sidebox.submit-text .morelink::before, .side .sidebox.submit-link .morelink::after {
         display: none;
     }
+	.modtools-page #search {
+		position: absolute;
+		z-index: 1;
+		width: 220px;
+		top: -5px;
+		left: 500px;
+	}
     #search {
         position: absolute;
         z-index: 1;
@@ -6111,6 +6118,32 @@ html:lang(ot) .linkflairlabel {
 	}
 	.side a[href*="#ot"] {
 		color:#e6e3c6;
+	}
+	.wiki-page .wiki-page-content .wiki.md h2 {
+		color:#e6e3c6;
+	}
+	.subreddit-rules-page .md-container .md h2 {
+		color: #e6e3c6;
+	}
+	.subreddit-rules-page > header p {
+		color: #e6e3c6;
+		font-size: 11px;
+		font-family: monospace;
+	}
+	.subreddit-rule-item:hover {
+		background: transparent;
+	}
+	.subreddit-rules-page .md p {
+		color: #e6e3c6;
+		font-family: monospace;
+	}
+	.subreddit-rule-description li {
+		color: #e6e3c6;
+		font-family: monospace;
+	}
+	.subreddit-rule-item {
+		color: #e6e3c6;
+		font-family: monospace;
 	}
  /* END - VENAM - CHANGES - NEW */
 
