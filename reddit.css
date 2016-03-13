@@ -4180,7 +4180,11 @@ html:lang(ot) .linkflairlabel {
 
     .titlebox .fancy-toggle-button .active.remove, .titlebox .fancy-toggle-button .active.add {
         background: transparent !important;
-    }
+		text-transform: lowercase;
+	}
+	#ad_main {
+		display: none;
+	}
     .titlebox .fancy-toggle-button .active {
 		display: inline;
         border: none;
@@ -6172,6 +6176,11 @@ html:lang(ot) .linkflairlabel {
 		display: inline-block;
 		border-radius: 0px 0px;
 	}
- /* END - VENAM - CHANGES - NEW */
+	.titlebox .users-online .number {
+		font-style: normal;
+		font-size: 12px;
+		margin-top: 1px;
+	}
+	/* END - VENAM - CHANGES - NEW */
 
 }
